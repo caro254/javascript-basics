@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <title>Carved Rock Fitness </title>
+</head>
+<body>
+
+    <p id="para1"> some text for this tutorial</p>
+    <p id="para2"> some text for this tutorial</p>
+    <p id="para3"> some text for this tutorial</p>
+    <p id="para4"> some text for this tutorial</p>
+   
+    
+<div class="para"> This is my new division</div>
+<div class="para"> This is my new division</div>
+
+<p class="text">old text</p>
+<p class="text">new text</p>
+<button onclick="changeColor()"> Submit </button>
+    
+
+<p class="change">hello there</p>
+<p class="change">from the moon</p>
+<p class="change"> this  has refused </p>
+
+<img src="pictures/player.jpg" id="image" /> </br>  </br>
+<button onclick="changeText()"> Click me </button>
+
+<p id="event" onmouseover="changeBackground()" onmouseout="backToNormal()">this is the mouseover event</p>
+
+<div id="main">
+
+<p>Family is important because it provides love, 
+support and a framework of values to each of its members.
+ Family members teach each other, 
+ serve one another and share life's joys and sorrows.
+  Families provide a setting for personal growth.
+   Family is the single most important influence in a child's life.
+</p>
+
+<p>Values are important also because they provide a foundation as a source of protection,
+     guidance, affection, and support.
+     Instilling family values can protect and guide children against making hurtful decisions 
+     in the future as they teach a sense of right and wrong.</p>
+<button onclick="newParagraph()">Read more</button>
+<br> <br>
+<button onclick="removeHeader()">Read less</button>
+</div>
+<div id="content">
+    <p id="p1">
+    when the first world war broke out many countries did nto imagine it would last for many years</p>
+    <p>During war men were drafted to fight  to defend their country</p>
+    <p>The war caused econmic difficulties </p>
+    
+    <p id="p2"> As a result women were forced to work to meet the famliy basic needs</p>
+    <button onclick="changeContent()">click once</button>
+    </div>
+
+<div>
+
+<h2>Fill out the form below and submit</h2>
+<form id="form" action="mesager.html" method="post"onSubmit="return validateTextbox();">
+
+    <div class="row">
+     <label for="name">Name</label>
+     <input type="text" id="name" name="">  </br> </br>
+    </div>
+
+    <div class="row">
+        <label for="address">Address</label>
+        <input type="text" id="Address" name=""> </br> </br>
+       </div>
+
+       <div class="row">
+        <label for="phone">phone</label>
+        <input type="tel" id="phone" name=""> </br> </br>
+       </div>
+
+       <div class="row">
+        <label for="email">Email</label>
+        <input type="text" id="email" name=""> </br> </br>
+       </div>
+    </br>
+    <input type="text" onfocus="highlightInput(this)">
+    <input type="submit" value="Submit">
+
+<h2>Thank you for filling the form </h2>
+
+</form>
+
+<div id="destination"></div>
+
+</div>
+
+
+
+
+<script src="main.js"> </script>
+  
+</body>
+</html>
